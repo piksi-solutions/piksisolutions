@@ -535,9 +535,17 @@ nav a:hover{
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 
-    gap:35px;
+    gap:25px;
+
+}
+
+.machine-image{
+
+    height:220px;
+
+    overflow:hidden;
 
 }
 
@@ -565,13 +573,7 @@ nav a:hover{
 
 }
 
-.machine-image{
 
-    overflow:hidden;
-
-    height:280px;
-
-}
 
 .machine-image img{
 
@@ -593,15 +595,15 @@ nav a:hover{
 
 .machine-content{
 
-    padding:30px;
+    padding:22px;
 
 }
 
 .machine-content h3{
 
-    font-size:34px;
+    font-size:24px;
 
-    margin-bottom:8px;
+    margin-bottom:10px;
 
 }
 
@@ -625,9 +627,9 @@ nav a:hover{
 
 .machine-content li{
 
-    padding:8px 0;
+    padding:5px 0;
 
-    color:#d5d5d5;
+    font-size:15px;
 
 }
 
@@ -645,15 +647,15 @@ nav a:hover{
 
     background:#0b8cff;
 
-    padding:8px 14px;
+    padding:6px 10px;
 
-    border-radius:30px;
+    border-radius:20px;
 
-    font-size:14px;
+    font-size:12px;
 
-    font-weight:600;
+}
 
-}/*==========================
+/*==========================
         CONTACT
 ==========================*/
 
