@@ -779,18 +779,22 @@ nav a:hover{
 
 }
 .more-title{
+
     text-align:center;
-    margin:80px 0 40px;
-    font-size:34px;
+
+    margin:80px 0 45px;
+
+    font-size:36px;
+
 }
 
 .projects-small{
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(4,1fr);
 
-    gap:25px;
+    gap:30px;
 
 }
 
@@ -798,13 +802,13 @@ nav a:hover{
 
     background:#171c25;
 
+    border:1px solid rgba(255,255,255,.06);
+
     border-radius:18px;
 
     overflow:hidden;
 
     transition:.35s;
-
-    border:1px solid rgba(255,255,255,.06);
 
 }
 
@@ -814,7 +818,7 @@ nav a:hover{
 
     border-color:#0b8cff;
 
-    box-shadow:0 20px 45px rgba(11,140,255,.25);
+    box-shadow:0 20px 40px rgba(11,140,255,.25);
 
 }
 
@@ -826,13 +830,15 @@ nav a:hover{
 
     object-fit:cover;
 
-    transition:.5s;
+    display:block;
+
+    transition:.4s;
 
 }
 
 .small-card:hover img{
 
-    transform:scale(1.06);
+    transform:scale(1.05);
 
 }
 
@@ -841,46 +847,12 @@ nav a:hover{
     padding:18px;
 
 }
-.small-content h3{
 
-    position:relative;
-    margin-bottom:22px;
-
-}
-
-.small-content h3::after{
-
-    content:"";
-
-    display:block;
-
-    width:60px;
-
-    height:3px;
-
-    background:#0b8cff;
-
-    margin-top:8px;
-
-    border-radius:20px;
-
-}
-.small-card{
-
-    overflow:hidden;
-
-}
-
-.small-card:hover img{
-
-    transform:scale(1.08);
-
-}
 .small-content h3{
 
     font-size:22px;
 
-    margin-bottom:15px;
+    margin-bottom:18px;
 
 }
 
@@ -892,8 +864,28 @@ nav a:hover{
 
 .small-content li{
 
-    padding:5px 0;
+    padding:6px 0;
 
-    color:#d6d6d6;
+    color:#d8d8d8;
+
+}
+
+@media(max-width:1200px){
+
+.projects-small{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.projects-small{
+
+grid-template-columns:1fr;
+
+}
 
 }
