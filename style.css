@@ -169,6 +169,13 @@ nav a:hover{
     max-width:700px;
 
 }
+.hero-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
 
 .hero h1{
 
@@ -193,24 +200,20 @@ nav a:hover{
 .btn{
 
     display:inline-flex;
+
     align-items:center;
+
     justify-content:center;
 
-    padding:18px 38px;
+    width:260px;
 
-    background:#0b8cff;
+    height:58px;
 
-    color:white;
+    font-size:18px;
 
-    border-radius:8px;
+    border-radius:12px;
 
     font-weight:700;
-
-    text-decoration:none;
-
-    transition:.35s;
-
-    box-shadow:0 15px 35px rgba(11,140,255,.35);
 
 }
 
