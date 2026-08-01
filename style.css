@@ -1117,3 +1117,21 @@ transition:.3s;
 transform:scale(1.1);
 
 }
+    @media (max-width:768px){
+
+.hero{
+
+background:
+linear-gradient(
+rgba(5,10,18,.35),
+rgba(5,10,18,.55)
+),
+url("assets/images/hero-mobile.jpg");
+
+background-size:cover;
+
+background-position:center center;
+
+}
+
+}
