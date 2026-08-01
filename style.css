@@ -956,5 +956,21 @@ nav.active{
 .stat-card{
     min-width:100%;
 }
+@media(max-width:768px){
+
+.hero{
+
+background-image:
+linear-gradient(
+rgba(5,10,18,.75),
+rgba(5,10,18,.85)
+),
+url("assets/images/hero-mobile.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+}
 
 }
